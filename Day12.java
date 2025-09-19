@@ -3,7 +3,7 @@ package com.mycompany.day12.java;
 
 import java.util.Scanner;
 
-public class Day2Java {
+public class Day12Java {
     public static void main(String[] args) {
         // Input data dari user
         try (Scanner sc = new Scanner(System.in)) {
