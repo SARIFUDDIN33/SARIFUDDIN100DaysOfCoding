@@ -1,26 +1,21 @@
-
-package com.mycompany.day12.java;
-
+package minggu1;
 import java.util.Scanner;
-
-public class Day12Java {
+public class Day12 {
     public static void main(String[] args) {
-        // Input data dari user
-        try (Scanner sc = new Scanner(System.in)) {
-            // Input data dari user
+         
+            Scanner input = new Scanner(System.in);
+           
             System.out.print("Masukkan nama: ");
-            String nama = sc.nextLine();
+            String nama = input.nextLine();
             
             System.out.print("Masukkan umur: ");
-            int umur = sc.nextInt();
+            int umur = input.nextInt();
             
             System.out.print("Masukkan tinggi badan (cm): ");
-            double tinggi = sc.nextDouble();
-            
-            sc.nextLine(); // buang newline biar bisa input string berikutnya
-            
+            double tinggi= input.nextDouble();
+            input.nextLine();       
             System.out.print("Masukkan alamat: ");
-            String alamat = sc.nextLine();
+            String alamat = input.nextLine();//
             
             // Output biodata
             System.out.println("\n=== Biodata Sederhana ===");
@@ -28,9 +23,6 @@ public class Day12Java {
             System.out.printf("Umur   : %d tahun\n", umur);
             System.out.printf("Tinggi : %.1f cm\n", tinggi);
             System.out.printf("Alamat : %s\n", alamat);
-        }
+        
     }
-
-
 }
-  
