@@ -1,5 +1,5 @@
+package minggu2;
 import java.util.Scanner;
-
 public class Day14 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -23,4 +23,6 @@ public class Day14 {
         System.out.println("String ke double  : " + pecahan);
         System.out.println("String ke boolean : " + kondisi);
     }
+        
+        
 }
